@@ -5,20 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <nav class="bg-gray-800 py-5 relative">
         <div class="container mx-auto flex items-center justify-between px-3">
             <img src="https://images.seeklogo.com/logo-png/52/2/microsoft-entra-id-logo-png_seeklogo-523357.png" class="w-14 h-14">
-            <div>
-                <a href="#" class="text-white mx-3">Inicio</a>
-                <a href="#" class="text-white mx-3">Seccion</a>
-                <a href="#" class="text-white mx-3">Sobre Nosotros</a>
-                <a href="#" class="text-white mx-3">Contacto</a>
+            <div class="hidden">
+                <i class='bx bx-menu text-white text-4xl cursor-pointer'></i>
             </div>
-            <div>
-                <a href="#" class="text-white border border-white py-2.5 px-5 rounded-md hover:bg-white hover:text-gray-800 transition duration-300 ease-in-out">Iniciar Sesion</a>
-                <a href="#" class="text-white bg-blue-500 border border-blue-500 py-2.5 px-5 rounded-md hover:bg-blue-600 hover:border-blue-600 transition duration-300 ease-in-out">Registrate</a>
+            <div class="flex">
+                <div>
+                    <a href="#" class="text-white mx-3">Inicio</a>
+                    <a href="#" class="text-white mx-3">Seccion</a>
+                    <a href="#" class="text-white mx-3">Sobre Nosotros</a>
+                    <a href="#" class="text-white mx-3">Contacto</a>
+                </div>
+                <div>
+                    <a href="#" class="text-white border border-white py-2.5 px-5 rounded-md hover:bg-white hover:text-gray-800 transition duration-300 ease-in-out">Iniciar Sesion</a>
+                    <a href="#" class="text-white bg-blue-500 border border-blue-500 py-2.5 px-5 rounded-md hover:bg-blue-600 hover:border-blue-600 transition duration-300 ease-in-out">Registrate</a>
+                </div>
             </div>
         </div>
     </nav>
