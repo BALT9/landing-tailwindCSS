@@ -32,19 +32,23 @@
             </div>
         </div>
     </nav>
-
-    <!-- Primer contenedor que no ocupa el espacio restante -->
-    <div class="w-full bg-gray-800 lg:flex lg:justify-center">
-        <div class="lg:w-1/2 flex justify-center">
-            <div class="w-3/4">
-                <h1 class="text-6xl font-sans text-white" style="font-family: 'Poppins', sans-serif;">Construye tu futuro académico y profesional</h1>
-                <p class="text-white">Estudia en línea con flexibilidad y calidad": Resalta los puntos clave de las clases virtuales: flexibilidad y calidad en la educación.</p>
-            </div>
+    <div class="h-auto flex items-center justify-center bg-gray-800">
+        <div class="lg:flex w-full max-w-7xl mx-auto px-6 space-x-6">
+          <!-- Primer div: Contenido de texto -->
+          <div class="flex-1 text-white mt-16">
+            <h1 class="lg:text-6xl text-5xl font-sans text-white" style="font-family: 'Poppins', sans-serif;">Construye tu futuro académico y profesional</h1>
+            <p class="text-white text-base py-5" style="font-family: 'Poppins', sans-serif;"><strong>Estudia en línea con flexibilidad y calidad</strong> <br>
+                Resalta los puntos clave de las clases virtuales: flexibilidad y calidad en la educación.</p>
+            <button class="bg-green-500 text-white py-3 px-6 rounded-lg text-xl hover:bg-green-600 transition-colors">Registrarse</button>
+          </div>
+      
+          <!-- Segundo div: Imagen o contenido adicional -->
+          <div class="flex-1">
+            <img src="https://pulsodigital.com.mx/wp-content/uploads/Paginas-Web-en-Monterrey-draws-2.png" class="w-full    " alt="">
+          </div>
         </div>
-        <div class="lg:w-1/2 flex items-center">
-            <img src="https://pulsodigital.com.mx/wp-content/uploads/Paginas-Web-en-Monterrey-draws-2.png" class="w-3/4" alt="">
-        </div>
-    </div>
+      </div>
+      
 
     <script src="./javascript.js"></script>
 </body>
