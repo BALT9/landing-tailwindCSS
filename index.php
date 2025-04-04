@@ -27,7 +27,7 @@
                 </div>
                 <div class="flex flex-col lg:flex-row items-center h-1/2">
                     <a href="#" class="text-white border border-white py-2.5 px-5 rounded-md hover:bg-white hover:text-gray-800 transition duration-300 ease-in-out mx-1 my-2 lg:my-auto">Iniciar Sesion</a>
-                    <a href="#" class="text-white bg-blue-500 border border-blue-500 py-2.5 px-5 rounded-md hover:bg-blue-600 hover:border-blue-600 transition duration-300 ease-in-out mx-1 my-2 lg:my-auto">Registrate</a>
+                    <a href="./registro.php" class="text-white bg-blue-500 border border-blue-500 py-2.5 px-5 rounded-md hover:bg-blue-600 hover:border-blue-600 transition duration-300 ease-in-out mx-1 my-2 lg:my-auto">Registrate</a>
                 </div>
             </div>
         </div>
@@ -37,19 +37,19 @@
           <!-- Primer div: Contenido de texto -->
           <div class="flex-1 text-white mt-16">
             <h1 class="lg:text-6xl text-5xl font-sans text-white" style="font-family: 'Poppins', sans-serif;">Construye tu futuro académico y profesional</h1>
-            <p class="text-white text-base py-5" style="font-family: 'Poppins', sans-serif;"><strong>Estudia en línea con flexibilidad y calidad</strong> <br>
+            <p class="text-white text-base py-5" style="font-family: 'Poppins', sans-serif;"><strong>Estudia en línea con flexibilidad y calidad</strong><br>
                 Resalta los puntos clave de las clases virtuales: flexibilidad y calidad en la educación.</p>
             <button class="bg-green-500 text-white py-3 px-6 rounded-lg text-xl hover:bg-green-600 transition-colors">Registrarse</button>
           </div>
-      
           <!-- Segundo div: Imagen o contenido adicional -->
           <div class="flex-1">
             <img src="https://pulsodigital.com.mx/wp-content/uploads/Paginas-Web-en-Monterrey-draws-2.png" class="w-full    " alt="">
           </div>
         </div>
-      </div>
-      
-
+    </div>
+    <?php
+        require "includes/config.php"
+    ?>
     <script src="./javascript.js"></script>
 </body>
 </html>
