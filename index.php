@@ -26,7 +26,7 @@
                     <a href="#" class="text-white mx-3 lg:my-0 my-5">Contacto</a>
                 </div>
                 <div class="flex flex-col lg:flex-row items-center h-1/2">
-                    <a href="#" class="text-white border border-white py-2.5 px-5 rounded-md hover:bg-white hover:text-gray-800 transition duration-300 ease-in-out mx-1 my-2 lg:my-auto">Iniciar Sesion</a>
+                    <a href="./login.php" class="text-white border border-white py-2.5 px-5 rounded-md hover:bg-white hover:text-gray-800 transition duration-300 ease-in-out mx-1 my-2 lg:my-auto">Iniciar Sesion</a>
                     <a href="./registro.php" class="text-white bg-blue-500 border border-blue-500 py-2.5 px-5 rounded-md hover:bg-blue-600 hover:border-blue-600 transition duration-300 ease-in-out mx-1 my-2 lg:my-auto">Registrate</a>
                 </div>
             </div>
