@@ -1,0 +1,17 @@
+{
+    "name": "windows/landing-tailwindcss",
+    "autoload": {
+        "psr-4": {
+            "Windows\\LandingTailwindcss\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "willy",
+            "email": "willybalt.2017@gmail.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.11"
+    }
+}
