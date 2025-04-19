@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Redirigir "/register" a "routes/auth.php" para manejar el registro
+RewriteRule ^register$ routes/auth.php [QSA,L]
+
+# Redirigir "/login" a "routes/auth.php" para manejar el login
+RewriteRule ^login$ routes/auth.php [QSA,L]

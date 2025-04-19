@@ -6,7 +6,7 @@
 
     $conn = mysqli_connect($BD_servidor,$BD_usuario,$BD_contraseña,$BD_BaseDatos);
 
-    if($conn){
-        echo 'conectado yupii';
-    }
+    // if($conn){
+    //     echo 'conectado yupii';
+    // }
 ?>
