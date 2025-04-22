@@ -49,25 +49,10 @@
             </div>
         </div>
     </div>
-    <?php
-    $request = $_SERVER['REQUEST_URI'];
 
-    switch ($request) {
-        case '/landing-tailwindcss/register':
-            include_once './routes/auth.php';
-            break;
-        case '/landing-tailwindcss/login':
-            include_once './routes/auth.php';
-            break;
-        default:
-            http_response_code(404);
-            echo json_encode(['message' => 'Ruta no encontrada']);
-            break;
-    }
-
-    ?>
 
     <script src="./javascript.js"></script>
+    
 </body>
 
 </html>

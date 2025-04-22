@@ -10,7 +10,7 @@
     <section class="flex justify-center items-center min-h-screen">
         <div class="bg-white p-8 rounded-lg shadow-lg w-96">
             <h1 class="text-2xl font-bold text-center mb-6">Registrarse</h1>
-            <form action="/register" method="POST">
+            <form action="/register" method="GET">
                 <!-- Nombre -->
                 <div class="mb-4">
                     <label for="nombre" class="block text-sm font-medium text-gray-700">Nombre:</label>
@@ -32,6 +32,7 @@
                 <div class="flex justify-between items-center">
                     <input type="submit" value="Iniciar Sesión" class="w-full py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600 cursor-pointer">
                 </div>
+                <p class="my-2">¿Ya tienes una Cuenta?<a href="./login.php" class="m-2 text-blue-400">Iniciar Sesión</a></p>
             </form>
         </div>
     </section>

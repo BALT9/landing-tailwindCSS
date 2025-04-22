@@ -26,6 +26,7 @@
                 <div class="flex justify-between items-center">
                     <input type="submit" value="Iniciar Sesión" class="w-full py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600 cursor-pointer">
                 </div>
+                <p class="my-2">¿No tienes una Cuenta?<a href="./registro.php" class="m-2 text-blue-400">Registrarse</a></p>
             </form>
         </div>
     </section>
