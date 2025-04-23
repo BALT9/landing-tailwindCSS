@@ -10,7 +10,7 @@
     <section class="flex justify-center items-center min-h-screen">
         <div class="bg-white p-8 rounded-lg shadow-lg w-96">
             <h1 class="text-2xl font-bold text-center mb-6">Registrarse</h1>
-            <form action="/register" method="GET">
+            <form action="/landing-tailwindcss/register" method="POST">
                 <!-- Nombre -->
                 <div class="mb-4">
                     <label for="nombre" class="block text-sm font-medium text-gray-700">Nombre:</label>

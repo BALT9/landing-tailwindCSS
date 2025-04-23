@@ -28,6 +28,7 @@ class AuthController
             // Intentar registrar el usuario
             if ($usuario->register()) {
                 echo json_encode(['message' => 'Usuario registrado exitosamente.']);
+                header('location: index.php');
             } else {
                 echo json_encode(['message' => 'El correo ya está registrado.']);
             }

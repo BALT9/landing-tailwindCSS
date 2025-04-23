@@ -1,13 +1,20 @@
 <?php
-    $BD_servidor = "localhost";
-    $BD_usuario = "usuario";
-    $BD_contraseña = "1234567890";
-    $BD_BaseDatos = "cursos";
+$host = 'localhost';
+$db   = 'cursos';
+$user = 'usuario';
+$pass = '1234567890';
+$charset = 'utf8mb4';
 
-    $conn = mysqli_connect($BD_servidor,$BD_usuario,$BD_contraseña,$BD_BaseDatos);
+$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 
-    // if($conn){
-    //     echo 'conectado yupii';
-    // }
-    
-?>
+$options = [
+    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+    PDO::ATTR_EMULATE_PREPARES   => false,
+];
+
+try {
+    $pdo = new PDO($dsn, $user, $pass, $options);
+} catch (PDOException $e) {
+    die('Error de conexión: ' . $e->getMessage());
+}

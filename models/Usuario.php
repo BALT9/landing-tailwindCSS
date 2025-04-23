@@ -61,7 +61,7 @@ class Usuario {
         }
 
         // Insertar el nuevo usuario
-        $sql = "INSERT INTO usuarios (nombre, correo, password) VALUES (?, ?, ?)";
+        $sql = "INSERT INTO usuarios (nombre, correo, contraseña) VALUES (?, ?, ?)";
         $stmt = $pdo->prepare($sql);
         $stmt->execute([$this->nombre, $this->correo, $this->contraseña]);
 
@@ -78,7 +78,7 @@ class Usuario {
         $usuario = $stmt->fetch(PDO::FETCH_ASSOC);
 
         // Verificar si el usuario existe y la contraseña es correcta
-        if ($usuario && $usuario['password'] === $this->contraseña) {
+        if ($usuario && $usuario['contraseña'] === $this->contraseña) {
             return $usuario;  // Retorna los datos del usuario si las credenciales son correctas
         }
         return null;  // Si las credenciales no coinciden
