@@ -53,9 +53,28 @@
         <div class="text-center w-3/4">
             <h1 class="text-3xl my-5 text-gray-700 font-medium" style="font-family: 'Poppins', sans-serif;">Estudia donde quieras, con la mejor calidad.</h1>
             <p class="px-10 text-xl text-gray-500 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis reiciendis atque ex odit, excepturi aut? Eos sapiente, eaque odit illo earum numquam quidem praesentium magni.</p>
-
         </div>
     </div>
+    <section class="p-8 flex justify-center">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 w-3/4">
+            <div class="shadow rounded-lg overflow-hidden">
+                <i class='bx bxs-school'></i>
+                <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9LIQyz7awYPdIQ8M1Z7oTECcpn96RNxq9eg&s" class="w-full" alt=""> -->
+                <h1>Lorem ipsum dolor sit amet.</h1>
+            </div>
+            <div class="shadow rounded-lg overflow-hidden">
+                <i class='bx bxs-school'></i>
+                <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9LIQyz7awYPdIQ8M1Z7oTECcpn96RNxq9eg&s" class="w-full" alt=""> -->
+                <h1>Lorem ipsum dolor sit amet.</h1>
+            </div>
+            <div class="shadow rounded-lg overflow-hidden">
+                <i class='bx bxs-school'></i>
+                <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9LIQyz7awYPdIQ8M1Z7oTECcpn96RNxq9eg&s" class="w-full" alt=""> -->
+                <h1>Lorem ipsum dolor sit amet.</h1>
+            </div>
+        </div>
+    </section>
+    
     <script src="./javascript.js"></script>
 
 </body>
