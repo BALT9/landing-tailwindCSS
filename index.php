@@ -50,9 +50,9 @@
         </div>
     </div>
     <div class="py-5 flex justify-center">
-        <div class="text-center w-3/4">
-            <h1 class="text-3xl my-5 text-gray-700 font-medium" style="font-family: 'Poppins', sans-serif;">Estudia donde quieras, con la mejor calidad.</h1>
-            <p class="px-10 text-xl text-gray-500 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis reiciendis atque ex odit, excepturi aut? Eos sapiente, eaque odit illo earum numquam quidem praesentium magni.</p>
+        <div class="text-center md:w-3/4 w-full">
+            <h1 class="text-2xl md:text-3xl my-5 text-gray-700 font-medium" style="font-family: 'Poppins', sans-serif;">Estudia donde quieras, con la mejor calidad.</h1>
+            <p class="md:px-10 px-3 md:text-xl text-sm text-gray-500 font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis reiciendis atque ex odit, excepturi aut? Eos sapiente, eaque odit illo earum numquam quidem praesentium magni.</p>
         </div>
     </div>
     <section class="p-8 flex justify-center">
