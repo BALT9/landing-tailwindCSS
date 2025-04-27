@@ -93,22 +93,25 @@
     </section>
     <section class="w-full bg-blue-700">
         <div class="flex justify-center">
-            <div class="w-4/5 h-[80vh] grid grid-cols-3 gap-10 p-4">
-                <div class="bg-white">
+            <div class="w-4/5 h-[80vh] grid grid-cols-3 gap-10 py-16">
+                <div class="bg-white text-center p-6">
+                    <span class="">PRO</span>
+                    <h2 class=""><span>$500</span>/Mes</h2>
                     <h2>Lorem, ipsum dolor.</h2>
-                    <span>$500</span>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, enim temporibus consequuntur deleniti repellat ipsam.</p>
                     <a href="">Contact Us</a>
                 </div>
-                <div class="bg-white">
+                <div class="bg-white text-center p-6">
+                    <span class="">PREMIUN</span>
+                    <h2 class=""><span>$500</span>/Mes</h2>
                     <h2>Lorem, ipsum dolor.</h2>
-                    <span>$500</span>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, enim temporibus consequuntur deleniti repellat ipsam.</p>
                     <a href="">Contact Us</a>
                 </div>
-                <div class="bg-white">
+                <div class="bg-white text-center p-6">
+                    <span class="">ENTERPRISE</span>
+                    <h2 class=""><span>$500</span>/Mes</h2>
                     <h2>Lorem, ipsum dolor.</h2>
-                    <span>$500</span>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, enim temporibus consequuntur deleniti repellat ipsam.</p>
                     <a href="">Contact Us</a>
                 </div>
