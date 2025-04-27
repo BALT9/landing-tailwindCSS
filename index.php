@@ -56,42 +56,45 @@
         </div>
     </div>
     <section class="p-8 flex justify-center">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-10 w-3/4">
-        <div class="shadow-md rounded-lg overflow-hidden flex justify-center transform transition duration-300 hover:scale-105 hover:shadow-lg">
-            <div class="w-full text-center p-2">
-                <div class="flex justify-center px-3 py-2">
-                    <i class='bx bxs-school text-red-400 text-6xl'></i>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10 w-3/4">
+            <div class="shadow-md rounded-lg overflow-hidden flex justify-center transform transition duration-300 hover:scale-105 hover:shadow-lg">
+                <div class="w-full text-center p-2">
+                    <div class="flex justify-center px-3 py-2">
+                        <i class='bx bxs-school text-red-400 text-6xl'></i>
+                    </div>
+                    <h1 class="font-semibold text-gray-700">Lorem ipsum dolor sit amet.</h1>
+                    <p class="text-gray-500 text-sm px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, aliquam.</p>
+                    <a href="" class="text-red-400 my-2 block font-semibold">Learn More</a>
                 </div>
-                <h1 class="font-semibold text-gray-700">Lorem ipsum dolor sit amet.</h1>
-                <p class="text-gray-500 text-sm px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, aliquam.</p>
+            </div>
+
+            <div class="shadow-md rounded-lg overflow-hidden flex justify-center transform transition duration-300 hover:scale-105 hover:shadow-lg">
+                <div class="w-full text-center p-2">
+                    <div class="flex justify-center px-3 py-2">
+                        <i class='bx bxs-school text-red-400 text-6xl'></i>
+                    </div>
+                    <h1 class="font-semibold text-gray-700">Lorem ipsum dolor sit amet.</h1>
+                    <p class="text-gray-500 text-sm px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, aliquam.</p>
+                    <a href="" class="text-red-400 my-2 block font-semibold">Learn More</a>
+                </div>
+            </div>
+
+            <div class="shadow-md rounded-lg overflow-hidden flex justify-center transform transition duration-300 hover:scale-105 hover:shadow-lg">
+                <div class="w-full text-center p-2">
+                    <div class="flex justify-center px-3 py-2">
+                        <i class='bx bxs-school text-red-400 text-6xl'></i>
+                    </div>
+                    <h1 class="font-semibold text-gray-700">Lorem ipsum dolor sit amet.</h1>
+                    <p class="text-gray-500 text-sm px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, aliquam.</p>
+                    <a href="" class="text-red-400 my-2 block font-semibold">Learn More</a>
+                </div>
             </div>
         </div>
+    </section>
+    <section class="w-full h-screen bg-blue-700">
 
-        <!-- Repite con los otros bloques -->
+    </section>
 
-        <div class="shadow-md rounded-lg overflow-hidden flex justify-center transform transition duration-300 hover:scale-105 hover:shadow-lg">
-            <div class="w-full text-center p-2">
-                <div class="flex justify-center px-3 py-2">
-                    <i class='bx bxs-school text-red-400 text-6xl'></i>
-                </div>
-                <h1 class="font-semibold text-gray-700">Lorem ipsum dolor sit amet.</h1>
-                <p class="text-gray-500 text-sm px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, aliquam.</p>
-            </div>
-        </div>
-
-        <div class="shadow-md rounded-lg overflow-hidden flex justify-center transform transition duration-300 hover:scale-105 hover:shadow-lg">
-            <div class="w-full text-center p-2">
-                <div class="flex justify-center px-3 py-2">
-                    <i class='bx bxs-school text-red-400 text-6xl'></i>
-                </div>
-                <h1 class="font-semibold text-gray-700">Lorem ipsum dolor sit amet.</h1>
-                <p class="text-gray-500 text-sm px-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque, aliquam.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-    
     <script src="./javascript.js"></script>
 
 </body>
