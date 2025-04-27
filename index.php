@@ -91,9 +91,28 @@
             </div>
         </div>
     </section>
-    <section class="w-full h-screen bg-blue-700">
-        <div>
-            <h1>seccion precio</h1>
+    <section class="w-full bg-blue-700">
+        <div class="flex justify-center">
+            <div class="w-4/5 h-[80vh] grid grid-cols-3 gap-10 p-4">
+                <div class="bg-white">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <span>$500</span>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, enim temporibus consequuntur deleniti repellat ipsam.</p>
+                    <a href="">Contact Us</a>
+                </div>
+                <div class="bg-white">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <span>$500</span>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, enim temporibus consequuntur deleniti repellat ipsam.</p>
+                    <a href="">Contact Us</a>
+                </div>
+                <div class="bg-white">
+                    <h2>Lorem, ipsum dolor.</h2>
+                    <span>$500</span>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, enim temporibus consequuntur deleniti repellat ipsam.</p>
+                    <a href="">Contact Us</a>
+                </div>
+            </div>
         </div>
     </section>
 
