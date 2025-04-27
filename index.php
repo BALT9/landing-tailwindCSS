@@ -92,28 +92,29 @@
         </div>
     </section>
     <section class="w-full bg-blue-700">
+        <h1 class="text-center py-6 text-3xl text-white font-bold">Nuestras Suscripciones</h1>
         <div class="flex justify-center">
-            <div class="w-4/5 h-[80vh] grid grid-cols-3 gap-10 py-16">
+            <div class="mx-3 md:w-4/5 grid md:grid-cols-3 md:gap-10 gap-1 py-8">
                 <div class="bg-white text-center p-6">
                     <span class="">PRO</span>
-                    <h2 class=""><span>$500</span>/Mes</h2>
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, enim temporibus consequuntur deleniti repellat ipsam.</p>
-                    <a href="">Contact Us</a>
+                    <h2 class="my-1 text-2xl"><span class="text-4xl font-bold">$500</span>/Mes</h2>
+                    <h2 class="text-1xl text-blue-700">Lorem, ipsum dolor.</h2>
+                    <p class="text-sm my-3 text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, enim temporibus consequuntur deleniti repellat ipsam.</p>
+                    <a href="" class="bg-blue-700 p-2 my-1 block text-white">Contact Us</a>
                 </div>
                 <div class="bg-white text-center p-6">
                     <span class="">PREMIUN</span>
-                    <h2 class=""><span>$500</span>/Mes</h2>
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, enim temporibus consequuntur deleniti repellat ipsam.</p>
-                    <a href="">Contact Us</a>
+                    <h2 class="my-1 text-2xl"><span class="text-4xl font-bold">$500</span>/Mes</h2>
+                    <h2 class="text-1xl text-blue-700">Lorem, ipsum dolor.</h2>
+                    <p class="text-sm my-3 text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, enim temporibus consequuntur deleniti repellat ipsam.</p>
+                    <a href="" class="bg-blue-700 p-2 my-1 block text-white">Contact Us</a>
                 </div>
                 <div class="bg-white text-center p-6">
                     <span class="">ENTERPRISE</span>
-                    <h2 class=""><span>$500</span>/Mes</h2>
-                    <h2>Lorem, ipsum dolor.</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, enim temporibus consequuntur deleniti repellat ipsam.</p>
-                    <a href="">Contact Us</a>
+                    <h2 class="my-1 text-2xl"><span class="text-4xl font-bold">$500</span>/Mes</h2>
+                    <h2 class="text-1xl text-blue-700">Lorem, ipsum dolor.</h2>
+                    <p class="text-sm my-3 text-gray-500">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, enim temporibus consequuntur deleniti repellat ipsam.</p>
+                    <a href="" class="bg-blue-700 p-2 my-1 block text-white">Contact Us</a>
                 </div>
             </div>
         </div>
