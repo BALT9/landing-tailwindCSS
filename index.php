@@ -92,7 +92,9 @@
         </div>
     </section>
     <section class="w-full h-screen bg-blue-700">
-
+        <div>
+            <h1>seccion precio</h1>
+        </div>
     </section>
 
     <script src="./javascript.js"></script>
